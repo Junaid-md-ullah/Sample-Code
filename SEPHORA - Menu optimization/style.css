@@ -1,0 +1,723 @@
+@media only screen and (min-width: 768px) {
+  .abTesting body:is(.not_first_page) .pt_account .page-content .content {
+    height: 100vh;
+    background-color: #f1f4f6 !important;
+    gap: 24px;
+  }
+
+  .abTesting body:is(.not_first_page) #primary {
+    border-left: unset !important;
+  }
+
+  .abTesting #wrapper > .page-top-banner {
+    display: none;
+  }
+
+  .abTesting .pt_account .account-left-text {
+    text-transform: initial;
+  }
+
+  .abTesting .unlogg_wrapper {
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+  }
+
+  .abTesting #secondary {
+    margin-top: 24px;
+    border-radius: 8px;
+    margin-left: 20px;
+    width: 330px;
+  }
+
+  .abTesting #secondary .account-nav-wrapper {
+    width: 330px;
+  }
+
+  .abTesting .account-overview {
+    padding: 24px;
+  }
+
+  .abTesting .accountoverview-list .accountoverview-item {
+    border-radius: 8px;
+  }
+
+  .abTesting .user_new_section {
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+  }
+
+  .abTesting .loyalty_picto.black::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='39' height='35' viewBox='0 0 39 35' fill='none'%3E%3Cline x1='1' y1='-1' x2='3' y2='-1' transform='matrix(0.205556 -0.978645 0.987936 0.154859 29.9199 5.43652)' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3Cline x1='1' y1='-1' x2='3' y2='-1' transform='matrix(0.615146 -0.788413 0.821326 0.570459 33.5669 7.4502)' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3Cline x1='1' y1='-1' x2='3' y2='-1' transform='matrix(0.947119 -0.320882 0.319335 0.947642 35.1177 10.499)' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M29.2006 9.5H2.8C1.49984 9.5 0.5 10.6144 0.5 11.92L0.5 32.08C0.5 33.3856 1.49984 34.5 2.8 34.5H29.2006C30.5008 34.5 31.5006 33.3856 31.5006 32.08V11.92C31.5006 10.6144 30.5008 9.5 29.2006 9.5Z' fill='black' stroke='%23D7D7D7'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.3422 22.0093C16.3322 27.0915 15.3278 29.0749 14.9282 30.0003C15.9632 28.5334 17.5202 25.2406 16.847 21.7789C15.965 17.2438 16.4096 15.3008 17.072 13.999C14.7446 17.4032 14.9966 20.239 15.3422 22.0093Z' fill='white'/%3E%3C/svg%3E");
+    width: 39px;
+    height: 35px;
+    display: block;
+  }
+
+  .abTesting .loyalty_picto.white::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='39' height='35' viewBox='0 0 39 35' fill='none'%3E%3Cline x1='1' y1='-1' x2='3' y2='-1' transform='matrix(0.205556 -0.978645 0.987936 0.154859 29.9199 5.43652)' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3Cline x1='1' y1='-1' x2='3' y2='-1' transform='matrix(0.615146 -0.788413 0.821326 0.570459 33.5669 7.4502)' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3Cline x1='1' y1='-1' x2='3' y2='-1' transform='matrix(0.947119 -0.320882 0.319335 0.947642 35.1177 10.499)' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M29.2006 9.5H2.8C1.49984 9.5 0.5 10.6144 0.5 11.92L0.5 32.08C0.5 33.3856 1.49984 34.5 2.8 34.5H29.2006C30.5008 34.5 31.5006 33.3856 31.5006 32.08V11.92C31.5006 10.6144 30.5008 9.5 29.2006 9.5Z' fill='white' stroke='%23D7D7D7'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.3422 22.0093C16.3322 27.0915 15.3278 29.0749 14.9282 30.0003C15.9632 28.5334 17.5202 25.2406 16.847 21.7789C15.965 17.2438 16.4096 15.3008 17.072 13.999C14.7446 17.4032 14.9966 20.239 15.3422 22.0093Z' fill='black'/%3E%3C/svg%3E");
+    width: 39px;
+    height: 35px;
+    display: block;
+  }
+
+  .abTesting .user_name_points {
+    margin-left: 21px;
+  }
+
+  .abTesting .user_new_section .user_name {
+    text-transform: initial;
+  }
+
+  .abTesting .user_new_section .points {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    font-family: AvantGardeMedium;
+    text-transform: initial;
+  }
+
+  .abTesting .account-left-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(1) {
+    order: 1;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(2) {
+    order: 2;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(4) {
+    order: 3;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(5) {
+    order: 4;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(3) {
+    order: 5;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(6) {
+    order: 6;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(9) {
+    order: 7;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(7) {
+    order: 8;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(8) {
+    order: 9;
+  }
+
+  .abTesting .account-left-nav .nav-level-1:nth-child(11) {
+    order: 10;
+  }
+
+  .abTesting body:is(.sign_up) .account-left-nav .nav-level-1:nth-child(10) {
+    order: 10;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a {
+    text-transform: initial;
+    font-family: AvantGardeMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    margin: 15px 0;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a.selected,
+  .account-left-nav .nav-level-1 a:hover {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    font-family: AvantGardeBold;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 .account-nav-sublink {
+    padding-left: 24px;
+  }
+
+  .abTesting .account-nav-link.selected,
+  .account-nav-link:hover {
+    border-color: black;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a > .nav-icon > svg {
+    display: none;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/mon-compte/']>.nav-icon::before
+  {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='24' viewBox='0 0 20 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20 22.0741C20 23.1377 19.1046 24 18 24L2 24C1.46957 24 0.960859 23.7971 0.585787 23.4359C0.210714 23.0747 0 22.5849 0 22.0741C0 20.6616 0.243014 19.2573 0.720548 17.9389C1.19805 16.6207 1.90459 15.404 2.81332 14.3648C3.72252 13.3251 4.82059 12.4792 6.05578 11.8941C7.29265 11.3083 8.63412 11 10 11C11.3659 11 12.7073 11.3083 13.9442 11.8941C15.1794 12.4792 16.2775 13.3251 17.1867 14.3648C18.0954 15.404 18.8019 16.6207 19.2795 17.9389C19.757 19.2573 20 20.6616 20 22.0741ZM2.17929 20.1481C2.2805 19.6107 2.42411 19.0836 2.60896 18.5732C3.011 17.4633 3.60028 16.4548 4.34315 15.6054C5.08601 14.7559 5.96793 14.082 6.93853 13.6223C7.90914 13.1625 8.94942 12.9259 10 12.9259C11.0506 12.9259 12.0909 13.1625 13.0615 13.6223C14.0321 14.082 14.914 14.7559 15.6569 15.6054C16.3997 16.4548 16.989 17.4633 17.391 18.5732C17.5759 19.0836 17.7195 19.6107 17.8207 20.1481C17.9396 20.7796 18 21.4251 18 22.0741L2 22.0741C2 21.4251 2.06039 20.7796 2.17929 20.1481Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10 8C11.6569 8 13 6.65685 13 5C13 3.34315 11.6569 2 10 2C8.34315 2 7 3.34315 7 5C7 6.65685 8.34315 8 10 8ZM10 10C12.7614 10 15 7.76142 15 5C15 2.23858 12.7614 0 10 0C7.23858 0 5 2.23858 5 5C5 7.76142 7.23858 10 10 10Z' fill='black'/%3E%3C/svg%3E");
+    width: 20px;
+    height: 24px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/mon-compte/']>.nav-title
+  {
+    font-size: 0;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/mon-compte/']>.nav-title::before
+  {
+    content: "Aperçu de mon compte";
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/mes-offres/']>.nav-icon::before
+  {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='24' viewBox='0 0 26 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.5598 1.20977C7.3531 0.435166 8.42903 0 9.55092 0C10.6728 0 11.7487 0.435166 12.542 1.20977L12.5461 1.21372C12.717 1.38207 12.8673 1.56778 13 1.76315C13.1327 1.56778 13.283 1.38208 13.4539 1.21373L13.4579 1.20977C14.2512 0.435166 15.3272 0 16.4491 0C17.5709 0 18.6469 0.435166 19.4402 1.20977C20.2335 1.98437 20.6791 3.03495 20.6791 4.1304C20.6791 4.87477 20.4734 5.59842 20.0926 6.22884H23.725C24.9814 6.22884 26 7.2234 26 8.45024V12.2583C26 13.3774 25.1525 14.3033 24.05 14.4572V21.7786C24.05 22.3678 23.8103 22.9328 23.3837 23.3494C22.957 23.766 22.3784 24 21.775 24H4.225C3.62163 24 3.04298 23.766 2.61633 23.3494C2.18969 22.9328 1.95 22.3678 1.95 21.7786V14.4572C0.847504 14.3033 0 13.3774 0 12.2583V8.45024C0 7.2234 1.01855 6.22884 2.275 6.22884H5.90742C5.52662 5.59842 5.32084 4.87477 5.32084 4.1304C5.32084 3.03495 5.76651 1.98437 6.5598 1.20977ZM14.3 8.76758V11.941H2.6V8.76758H14.3ZM4.55 14.4797V21.4613H11.7V14.4797H4.55ZM14.3 14.4797V21.4613H21.45V14.4797H14.3ZM23.4 11.941H14.3V8.76758H23.4V11.941ZM11.6218 6.15252C11.6009 5.9431 11.5744 5.72002 11.5409 5.49082C11.461 4.94427 11.3458 4.39371 11.1853 3.92235C11.0183 3.43158 10.8398 3.14014 10.7013 3.00272C10.3958 2.7056 9.98217 2.53874 9.55092 2.53874C9.11859 2.53874 8.70398 2.70643 8.39828 3.00492C8.09258 3.30342 7.92084 3.70826 7.92084 4.1304C7.92084 4.5515 8.09174 4.9554 8.39603 5.25368C8.53677 5.38891 8.83524 5.5632 9.33784 5.7263C9.82058 5.88296 10.3844 5.99549 10.9442 6.07347C11.1789 6.10617 11.4074 6.13205 11.6218 6.15252ZM14.3782 6.15252C14.5926 6.13205 14.8211 6.10617 15.0558 6.07347C15.6156 5.99549 16.1794 5.88296 16.6621 5.7263C17.1648 5.56318 17.4633 5.38889 17.604 5.25365C17.9083 4.95537 18.0791 4.55149 18.0791 4.1304C18.0791 3.70826 17.9074 3.30342 17.6017 3.00492C17.296 2.70643 16.8814 2.53874 16.4491 2.53874C16.0178 2.53874 15.6042 2.7056 15.2987 3.00272C15.1602 3.14013 14.9817 3.43157 14.8147 3.92235C14.6542 4.39371 14.539 4.94426 14.4591 5.49081C14.4256 5.72002 14.3991 5.9431 14.3782 6.15252Z' fill='black'/%3E%3C/svg%3E");
+    width: 26px;
+    height: 24px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/Programme-carte-fidelite.html']>.nav-icon::before
+  {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M25.3033 8.40706H5.93667L5.93667 24.0529H25.3033V8.40706ZM5.93667 6C4.86708 6 4 7.07768 4 8.40706V24.0529C4 25.3823 4.86707 26.46 5.93667 26.46H25.3033C26.3729 26.46 27.24 25.3823 27.24 24.0529V8.40706C27.24 7.07768 26.3729 6 25.3033 6H5.93667Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.4213 16.0072C16.4289 19.8186 15.4067 21.306 15 22C16.0534 20.8999 17.638 18.4305 16.9528 15.8344C16.0552 12.4334 16.5077 10.9762 17.1818 10C14.8131 12.5529 15.0696 14.6796 15.4213 16.0072Z' fill='black'/%3E%3C/svg%3E");
+    width: 32px;
+    height: 32px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/Programme-carte-fidelite.html']>.nav-title
+  {
+    font-size: 0;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/Programme-carte-fidelite.html']>.nav-title::before
+  {
+    content: "Le programme de fidélité";
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/wishlist/']>.nav-icon::before
+  {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='22' viewBox='0 0 24 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.4309 21.9064C12.516 21.8674 12.5964 21.8162 12.669 21.753C14.1983 20.4614 16.4822 18.4683 17.7884 17.1499C19.472 15.4512 20.8499 13.8384 21.8756 12.3538C23.2076 10.4246 24 8.64509 24 7.11646C24 3.27717 21.0082 0 17.1396 0C15.8874 0 14.6759 0.658985 13.7044 1.42073C13.0854 1.90609 12.5051 2.4791 12 3.07274C11.4949 2.4791 10.9146 1.90609 10.2956 1.42073C9.32409 0.658985 8.11256 0 6.86037 0C2.99178 0 0 3.27717 0 7.11646C0 8.64509 0.792204 10.4244 2.12424 12.3536C3.14991 13.8382 4.52796 15.4512 6.21161 17.1499C7.51779 18.4683 9.80168 20.4614 11.331 21.753C11.4036 21.8162 11.484 21.8674 11.5691 21.9064C11.7054 21.9691 11.8529 22.0001 12 22C12.1471 22.0001 12.2946 21.9691 12.4309 21.9064ZM1.99336 7.11646C1.99336 4.1615 4.26238 1.90951 6.86037 1.90951C7.42222 1.90951 8.18565 2.23396 9.03303 2.89837C9.8467 3.53636 10.606 4.38557 11.1509 5.19285C11.191 5.25542 11.239 5.31405 11.2946 5.36726C11.4841 5.5495 11.7399 5.64716 12 5.64739C12.1407 5.64752 12.2827 5.61913 12.4161 5.5602C12.5222 5.51366 12.6205 5.44896 12.7054 5.36726C12.761 5.31405 12.809 5.25542 12.8491 5.19285C13.394 4.38557 14.1533 3.53636 14.967 2.89837C15.8143 2.23396 16.5778 1.90951 17.1396 1.90951C19.7376 1.90951 22.0066 4.1615 22.0066 7.11646C22.0066 8.0731 21.4815 9.46316 20.2133 11.3C19.2694 12.6663 17.9719 14.1915 16.3428 15.8351C15.2699 16.9181 13.4583 18.5206 12 19.7687C10.5417 18.5206 8.73024 16.9183 7.65734 15.8352C6.02832 14.1917 4.7306 12.6663 3.78668 11.3C2.51846 9.46316 1.99336 8.0731 1.99336 7.11646Z' fill='black'/%3E%3C/svg%3E");
+    width: 24px;
+    height: 22px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1.purchase_option .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='22' viewBox='0 0 21 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M18 0H6.2879C4.63105 0 3.2879 1.34315 3.2879 3V15H2.99991C1.41798 15 -0.0993261 16.305 0.0248312 18.1353C0.081919 18.9769 0.299591 20.2628 1.52438 21.1314C2.54697 21.8566 3.90974 22 5.2879 22H15.9847C15.9911 22.0001 15.9974 22.0001 16.0038 22.0001C16.0082 22.0001 16.0127 22.0001 16.0171 22H18C19.6569 22 21 20.6569 21 19V3C21 1.34315 19.6569 0 18 0ZM16.0784 20H18C18.5523 20 19 19.5523 19 19V3C19 2.44772 18.5523 2 18 2H6.2879C5.73562 2 5.2879 2.44772 5.2879 3V15H10.8899C11.5915 15 12.1569 15.3635 12.5318 15.7433C12.9121 16.1286 13.1979 16.6274 13.3338 17.1285C13.6706 18.3705 14.6688 19.7561 16.0784 20ZM4.2879 17H3.99963H2.99991C2.44763 17 1.98287 17.4489 2.02025 17.9999C2.11069 19.3333 2.60345 20 5.2879 20H12.5885C11.99 19.2335 11.5993 18.3738 11.4035 17.652C11.3591 17.4882 11.25 17.2918 11.1083 17.1482C10.9796 17.0178 10.8993 17.0021 10.8897 17.0003L10.8887 17L10.8894 17H4.2879ZM9.00012 7.49158C9.00012 6.93929 9.44784 6.49158 10.0001 6.49158H15.1199C15.6721 6.49158 16.1199 6.93929 16.1199 7.49158C16.1199 8.04386 15.6721 8.49158 15.1199 8.49158H10.0001C9.44784 8.49158 9.00012 8.04386 9.00012 7.49158ZM10.0001 10.5424C9.44784 10.5424 9.00012 10.9901 9.00012 11.5424C9.00012 12.0946 9.44784 12.5424 10.0001 12.5424H15.1199C15.6721 12.5424 16.1199 12.0946 16.1199 11.5424C16.1199 10.9901 15.6721 10.5424 15.1199 10.5424H10.0001Z' fill='black'/%3E%3C/svg%3E");
+    width: 21px;
+    height: 22px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/profil/#subscribing-form']>.nav-icon::before
+  {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.09091 8.5H23.3636C23.5512 8.5 23.734 8.51992 23.9099 8.55771L16.5652 14.8696C16.0854 15.282 15.3689 15.282 14.889 14.8696L7.54437 8.55777C7.72042 8.51993 7.9033 8.5 8.09091 8.5ZM5.65899 10.2594C5.5852 10.4935 5.54545 10.7422 5.54545 11V21C5.54545 22.3807 6.68509 23.5 8.09091 23.5H23.3636C24.7695 23.5 25.9091 22.3807 25.9091 21V11C25.9091 10.7421 25.8693 10.4933 25.7955 10.2592L18.2414 16.751C16.8019 17.9881 14.6524 17.9881 13.2128 16.751L5.65899 10.2594ZM3 11C3 8.23858 5.27928 6 8.09091 6H23.3636C26.1753 6 28.4545 8.23858 28.4545 11V21C28.4545 23.7614 26.1753 26 23.3636 26H8.09091C5.27928 26 3 23.7614 3 21V11Z' fill='black'/%3E%3C/svg%3E");
+    width: 32px;
+    height: 32px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/profil/#subscribing-form']>.nav-title
+  {
+    font-size: 0;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/profil/#subscribing-form']>.nav-title::before
+  {
+    content: "Mes préférences de contact";
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/on/demandware.store/Sites-Sephora_FR-Site/fr_FR/Account-FavoriteStore']>.nav-icon::before
+  {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M6 17.4502V26.0002C6 26.2654 6.10536 26.5198 6.29289 26.7073C6.48043 26.8948 6.73478 27.0002 7 27.0002H25C25.2652 27.0002 25.5196 26.8948 25.7071 26.7073C25.8946 26.5198 26 26.2654 26 26.0002V17.4502' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M6.75 5H25.25C25.4669 5.00179 25.6776 5.0732 25.8508 5.20373C26.0241 5.33425 26.1509 5.51698 26.2125 5.725L28 12H4L5.7875 5.725C5.84909 5.51698 5.97587 5.33425 6.14916 5.20373C6.32244 5.0732 6.53306 5.00179 6.75 5V5Z' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12 12V14C12 15.0609 11.5786 16.0783 10.8284 16.8284C10.0783 17.5786 9.06087 18 8 18C6.93913 18 5.92172 17.5786 5.17157 16.8284C4.42143 16.0783 4 15.0609 4 14V12' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M20 12V14C20 15.0609 19.5786 16.0783 18.8284 16.8284C18.0783 17.5786 17.0609 18 16 18C14.9391 18 13.9217 17.5786 13.1716 16.8284C12.4214 16.0783 12 15.0609 12 14V12' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M28 12V14C28 15.0609 27.5786 16.0783 26.8284 16.8284C26.0783 17.5786 25.0609 18 24 18C22.9391 18 21.9217 17.5786 21.1716 16.8284C20.4214 16.0783 20 15.0609 20 14V12' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    width: 32px;
+    height: 32px;
+  }
+
+  .abTesting
+    .account-left-nav
+    .nav-level-1
+    a.booxi-popin-open
+    > .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='22' viewBox='0 0 20 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 1C7 0.447715 6.55228 0 6 0C5.44772 0 5 0.447715 5 1V2H4C1.79086 2 0 3.79086 0 6V18C0 20.2091 1.79086 22 4 22H16C18.2091 22 20 20.2091 20 18V10V8V6C20 3.79086 18.2091 2 16 2H15V1C15 0.447715 14.5523 0 14 0C13.4477 0 13 0.447715 13 1V2H7V1ZM18 8V6C18 4.89543 17.1046 4 16 4H15V5C15 5.55228 14.5523 6 14 6C13.4477 6 13 5.55228 13 5V4H7V5C7 5.55228 6.55228 6 6 6C5.44771 6 5 5.55228 5 5V4H4C2.89543 4 2 4.89543 2 6V8H18ZM2 10V18C2 19.1046 2.89543 20 4 20H16C17.1046 20 18 19.1046 18 18V10H2ZM7 13C7 12.4477 7.38376 12 7.85714 12H12.1429C12.6162 12 13 12.4477 13 13C13 13.5523 12.6162 14 12.1429 14H7.85714C7.38376 14 7 13.5523 7 13ZM7.85714 16C7.38376 16 7 16.4477 7 17C7 17.5523 7.38376 18 7.85714 18H12.1429C12.6162 18 13 17.5523 13 17C13 16.4477 12.6162 16 12.1429 16H7.85714Z' fill='black'/%3E%3C/svg%3E");
+    width: 20px;
+    height: 22px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a.booxi-popin-open > .nav-title {
+    text-transform: lowercase;
+  }
+
+  .abTesting
+    .account-left-nav
+    .nav-level-1
+    a.booxi-popin-open
+    > .nav-title::first-letter {
+    text-transform: uppercase;
+  }
+
+  .abTesting
+    .account-left-nav
+    .nav-level-1.my_account_set
+    a
+    > .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='22' viewBox='0 0 21 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.3435 2.73761C9.30932 4.74494 6.97626 5.71133 4.82559 5.0232C4.7709 5.0057 4.74489 5.01119 4.73139 5.01475C4.70965 5.02048 4.67813 5.03572 4.64745 5.06639C4.61677 5.09707 4.60154 5.1286 4.59581 5.15033C4.59225 5.16384 4.58676 5.18984 4.60426 5.24453C5.29238 7.3952 4.32599 9.72827 2.31866 10.7624C2.26762 10.7887 2.25311 10.811 2.24608 10.8231C2.23476 10.8425 2.22324 10.8756 2.22324 10.9189C2.22324 10.9623 2.23476 10.9954 2.24608 11.0148C2.25311 11.0269 2.26762 11.0492 2.31866 11.0754C4.32599 12.1096 5.29238 14.4427 4.60426 16.5934C4.58676 16.6481 4.59225 16.6741 4.59581 16.6876C4.60154 16.7093 4.61677 16.7408 4.64745 16.7715C4.67813 16.8022 4.70965 16.8174 4.73139 16.8231C4.74489 16.8267 4.7709 16.8322 4.82559 16.8147C6.97625 16.1266 9.30932 17.093 10.3435 19.1003C10.3698 19.1513 10.3921 19.1658 10.4041 19.1729C10.4236 19.1842 10.4566 19.1957 10.5 19.1957C10.5434 19.1957 10.5764 19.1842 10.5959 19.1729C10.6079 19.1658 10.6302 19.1513 10.6565 19.1003C11.6907 17.093 14.0237 16.1266 16.1744 16.8147C16.2291 16.8322 16.2551 16.8267 16.2686 16.8231C16.2903 16.8174 16.3219 16.8022 16.3526 16.7715C16.3832 16.7408 16.3985 16.7093 16.4042 16.6876C16.4078 16.6741 16.4132 16.6481 16.3957 16.5934C15.7076 14.4427 16.674 12.1096 18.6813 11.0754C18.7324 11.0492 18.7469 11.0269 18.7539 11.0148C18.7652 10.9954 18.7768 10.9623 18.7768 10.9189C18.7768 10.8756 18.7652 10.8425 18.7539 10.8231C18.7469 10.811 18.7324 10.7887 18.6813 10.7624C16.674 9.72827 15.7076 7.3952 16.3957 5.24453C16.4132 5.18984 16.4078 5.16384 16.4042 5.15033C16.3985 5.1286 16.3832 5.09707 16.3526 5.06639C16.3219 5.03572 16.2903 5.02048 16.2686 5.01475C16.2551 5.01119 16.2291 5.0057 16.1744 5.0232C14.0237 5.71133 11.6907 4.74494 10.6565 2.73761C10.6302 2.68656 10.6079 2.67206 10.5959 2.66502C10.5764 2.65371 10.5434 2.64219 10.5 2.64219C10.4566 2.64219 10.4236 2.65371 10.4041 2.66503C10.3921 2.67206 10.3698 2.68656 10.3435 2.73761ZM12.6329 1.71939C11.7396 -0.0145354 9.26044 -0.0145351 8.36713 1.71939C7.83035 2.76128 6.61939 3.26287 5.5031 2.90571C3.64536 2.31131 1.89236 4.06431 2.48676 5.92204C2.84393 7.03833 2.34233 8.24929 1.30044 8.78608C-0.433481 9.67939 -0.43348 12.1585 1.30044 13.0518C2.34233 13.5886 2.84393 14.7996 2.48676 15.9158C1.89236 17.7736 3.64536 19.5266 5.5031 18.9322C6.61939 18.575 7.83035 19.0766 8.36713 20.1185C9.26044 21.8524 11.7396 21.8524 12.6329 20.1185C13.1697 19.0766 14.3806 18.575 15.4969 18.9322C17.3546 19.5266 19.1076 17.7736 18.5132 15.9158C18.1561 14.7996 18.6577 13.5886 19.6996 13.0518C21.4335 12.1585 21.4335 9.67939 19.6996 8.78608C18.6577 8.24929 18.1561 7.03833 18.5132 5.92204C19.1076 4.06431 17.3546 2.31131 15.4969 2.90571C14.3806 3.26287 13.1697 2.76128 12.6329 1.71939Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.5 13.1414C11.7278 13.1414 12.7232 12.146 12.7232 10.9182C12.7232 9.6903 11.7278 8.69492 10.5 8.69492C9.27209 8.69492 8.27671 9.6903 8.27671 10.9182C8.27671 12.146 9.27209 13.1414 10.5 13.1414ZM10.5 15.3646C12.9557 15.3646 14.9464 13.3739 14.9464 10.9182C14.9464 8.46244 12.9557 6.47168 10.5 6.47168C8.04423 6.47168 6.05347 8.46244 6.05347 10.9182C6.05347 13.3739 8.04423 15.3646 10.5 15.3646Z' fill='black'/%3E%3C/svg%3E");
+    width: 21px;
+    height: 22px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1.my_account_set a > .nav-title {
+    font-size: 0;
+  }
+
+  .abTesting
+    .account-left-nav
+    .nav-level-1.my_account_set
+    a
+    > .nav-title::before {
+    content: "Mes paramètres";
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .abTesting
+    body:not(.sign_up)
+    .account-left-nav
+    .nav-level-1.my_account_set
+    + .nav-level-1 {
+    display: none;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/aide-sephora/']>.nav-icon::before
+  {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cg clip-path='url(%23clip0_1017_15267)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 26C21.5228 26 26 21.5228 26 16C26 10.4772 21.5228 6 16 6C10.4772 6 6 10.4772 6 16C6 21.5228 10.4772 26 16 26ZM16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z' fill='black'/%3E%3Cpath d='M17.1866 17.875H15.227C15.227 17.4763 15.2584 17.129 15.321 16.8333C15.3885 16.5332 15.4994 16.2643 15.6537 16.0269C15.8079 15.7849 16.0152 15.5542 16.2755 15.3347C16.502 15.151 16.6997 14.9785 16.8684 14.8172C17.0371 14.6514 17.1673 14.4812 17.2589 14.3065C17.3504 14.1317 17.3962 13.9413 17.3962 13.7352C17.3962 13.4888 17.3553 13.2872 17.2733 13.1304C17.1962 12.9691 17.0805 12.8481 16.9262 12.7675C16.7768 12.6823 16.5888 12.6398 16.3623 12.6398C16.1743 12.6398 15.9983 12.6801 15.8344 12.7608C15.6705 12.8369 15.538 12.9579 15.4367 13.1237C15.3355 13.2894 15.2801 13.5067 15.2704 13.7755H13C13.0145 13.1349 13.1711 12.6107 13.47 12.203C13.7689 11.7908 14.169 11.4884 14.6703 11.2957C15.1764 11.0986 15.7404 11 16.3623 11C17.0516 11 17.6421 11.1008 18.1338 11.3024C18.6303 11.504 19.0087 11.802 19.269 12.1962C19.5341 12.5905 19.6667 13.0721 19.6667 13.6411C19.6667 14.0309 19.5871 14.3737 19.4281 14.6694C19.269 14.9606 19.0569 15.2339 18.7918 15.4892C18.5266 15.7401 18.2326 16.0022 17.9096 16.2755C17.6349 16.504 17.4469 16.7415 17.3456 16.9879C17.2444 17.2298 17.1914 17.5255 17.1866 17.875ZM14.9667 19.9315C14.9667 19.6313 15.0824 19.3781 15.3138 19.172C15.55 18.966 15.8561 18.8629 16.2321 18.8629C16.6081 18.8629 16.9118 18.966 17.1432 19.172C17.3745 19.3781 17.4902 19.6313 17.4902 19.9315C17.4902 20.2361 17.3745 20.4915 17.1432 20.6976C16.9118 20.8992 16.6081 21 16.2321 21C15.8561 21 15.55 20.8992 15.3138 20.6976C15.0824 20.4915 14.9667 20.2361 14.9667 19.9315Z' fill='black'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1017_15267'%3E%3Crect width='32' height='32' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    width: 32px;
+    height: 32px;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/carnet-adresse/'],
+    .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/moyen-paiement/']
+  {
+    font-size: 0;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/carnet-adresse/']::before
+  {
+    content: "Mes adresses";
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/moyen-paiement/']::before
+  {
+    content: "Mes moyens de paiements et avoirs";
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/aide-sephora/']>.nav-title
+  {
+    text-transform: lowercase;
+  }
+
+  .abTesting .account-left-nav .nav-level-1 a[href='https://www.sephora.fr/aide-sephora/']>.nav-title::first-letter
+  {
+    text-transform: uppercase;
+  }
+
+  /* .abTesting .account-nav-wrapper .user-logout {
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        border: 2px solid #000000;
+        text-transform: initial;
+    } */
+}
+
+.abTesting .sign_up .login-logout-btn {
+  display: none;
+}
+
+.abTesting .unlogg_wrapper .unlogg_details {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  font-family: AvantGardeMedium;
+  text-transform: initial;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.abTesting .unlogg_wrapper > a {
+  text-transform: initial;
+  border-radius: 8px;
+  width: 100%;
+  font-family: AvantGardeBold;
+  padding: 0;
+}
+
+.abTesting .user-logout,
+.abTesting .login-logout-btn > a {
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  border: 2px solid #000000;
+  text-transform: initial;
+}
+
+@media only screen and (max-width: 768px) {
+  .abTesting #primary {
+    margin-top: 16px;
+  }
+
+  .abTesting .pt_account .account-left-text {
+    text-transform: initial;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 16px;
+  }
+
+  .abTesting .pt_account .account-left-text .norewards-description > * {
+    color: black;
+    font-weight: 400;
+    font-family: AvantGardeMedium;
+  }
+
+  .abTesting
+    .pt_account
+    .account-left-text
+    .cards-images[for="dematerialized-card"] {
+    margin-right: unset;
+    width: unset;
+    float: right;
+    max-width: unset;
+  }
+
+  .abTesting .mobile_card_wrapper {
+    width: 122px;
+    height: 72px;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6px;
+  }
+
+  .abTesting .mobile_card_wrapper .card_img.black::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='26' viewBox='0 0 32 26' fill='none'%3E%3Cpath d='M29.2006 0.5L2.8 0.5C1.49984 0.5 0.5 1.61436 0.5 2.92L0.5 23.08C0.5 24.3856 1.49984 25.5 2.8 25.5H29.2006C30.5008 25.5 31.5006 24.3856 31.5006 23.08V2.92C31.5006 1.61436 30.5008 0.5 29.2006 0.5Z' fill='black' stroke='%23D7D7D7'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.3422 13.0093C16.3322 18.0915 15.3278 20.0749 14.9282 21.0003C15.9632 19.5334 17.5202 16.2406 16.847 12.7789C15.965 8.24382 16.4096 6.30078 17.072 4.99902C14.7446 8.40318 14.9966 11.239 15.3422 13.0093Z' fill='white'/%3E%3C/svg%3E");
+    width: 33px;
+    height: 26px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+  }
+
+  .abTesting .mobile_card_wrapper .card_img.white::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='26' viewBox='0 0 32 26' fill='none'%3E%3Cpath d='M29.2006 0.5L2.8 0.5C1.49984 0.5 0.5 1.61436 0.5 2.92L0.5 23.08C0.5 24.3856 1.49984 25.5 2.8 25.5H29.2006C30.5008 25.5 31.5006 24.3856 31.5006 23.08V2.92C31.5006 1.61436 30.5008 0.5 29.2006 0.5Z' fill='white' stroke='%23D7D7D7'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.3422 13.0093C16.3322 18.0915 15.3278 20.0749 14.9282 21.0003C15.9632 19.5334 17.5202 16.2406 16.847 12.7789C15.965 8.24382 16.4096 6.30078 17.072 4.99902C14.7446 8.40318 14.9966 11.239 15.3422 13.0093Z' fill='black'/%3E%3C/svg%3E");
+    width: 32px;
+    height: 26px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
+  }
+
+  .abTesting .mobile_card_wrapper .card_text {
+    color: white;
+    text-transform: initial;
+  }
+
+  .abTesting .accountoverview-list.accordion {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abTesting .accountoverview-list.accordion > .accountoverview-item,
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-row
+    > .accountoverview-item {
+    margin-bottom: 4px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(2) {
+    order: 1;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(1) {
+    order: 2;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(4) {
+    order: 3;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-row:nth-child(3) {
+    order: 4;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(8) {
+    order: 5;
+    display: none;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(7) {
+    order: 6;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(5) {
+    order: 7;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(6) {
+    order: 8;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(9) {
+    order: 9;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item
+    .nav-icon
+    svg,
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-row
+    .nav-icon
+    svg {
+    display: none;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(2)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='24' viewBox='0 0 26 24' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.5598 1.20977C7.3531 0.435166 8.42903 0 9.55092 0C10.6728 0 11.7487 0.435166 12.542 1.20977L12.5461 1.21372C12.717 1.38207 12.8673 1.56778 13 1.76315C13.1327 1.56778 13.283 1.38208 13.4539 1.21373L13.4579 1.20977C14.2512 0.435166 15.3272 0 16.4491 0C17.5709 0 18.6469 0.435166 19.4402 1.20977C20.2335 1.98437 20.6791 3.03495 20.6791 4.1304C20.6791 4.87477 20.4734 5.59842 20.0926 6.22884H23.725C24.9814 6.22884 26 7.2234 26 8.45024V12.2583C26 13.3774 25.1525 14.3033 24.05 14.4572V21.7786C24.05 22.3678 23.8103 22.9328 23.3837 23.3494C22.957 23.766 22.3784 24 21.775 24H4.225C3.62163 24 3.04298 23.766 2.61633 23.3494C2.18969 22.9328 1.95 22.3678 1.95 21.7786V14.4572C0.847504 14.3033 0 13.3774 0 12.2583V8.45024C0 7.2234 1.01855 6.22884 2.275 6.22884H5.90742C5.52662 5.59842 5.32084 4.87477 5.32084 4.1304C5.32084 3.03495 5.76651 1.98437 6.5598 1.20977ZM14.3 8.76758V11.941H2.6V8.76758H14.3ZM4.55 14.4797V21.4613H11.7V14.4797H4.55ZM14.3 14.4797V21.4613H21.45V14.4797H14.3ZM23.4 11.941H14.3V8.76758H23.4V11.941ZM11.6218 6.15252C11.6009 5.9431 11.5744 5.72002 11.5409 5.49082C11.461 4.94427 11.3458 4.39371 11.1853 3.92235C11.0183 3.43158 10.8398 3.14014 10.7013 3.00272C10.3958 2.7056 9.98217 2.53874 9.55092 2.53874C9.11859 2.53874 8.70398 2.70643 8.39828 3.00492C8.09258 3.30342 7.92084 3.70826 7.92084 4.1304C7.92084 4.5515 8.09174 4.9554 8.39603 5.25368C8.53677 5.38891 8.83524 5.5632 9.33784 5.7263C9.82058 5.88296 10.3844 5.99549 10.9442 6.07347C11.1789 6.10617 11.4074 6.13205 11.6218 6.15252ZM14.3782 6.15252C14.5926 6.13205 14.8211 6.10617 15.0558 6.07347C15.6156 5.99549 16.1794 5.88296 16.6621 5.7263C17.1648 5.56318 17.4633 5.38889 17.604 5.25365C17.9083 4.95537 18.0791 4.55149 18.0791 4.1304C18.0791 3.70826 17.9074 3.30342 17.6017 3.00492C17.296 2.70643 16.8814 2.53874 16.4491 2.53874C16.0178 2.53874 15.6042 2.7056 15.2987 3.00272C15.1602 3.14013 14.9817 3.43157 14.8147 3.92235C14.6542 4.39371 14.539 4.94426 14.4591 5.49081C14.4256 5.72002 14.3991 5.9431 14.3782 6.15252Z' fill='black'/%3E%3C/svg%3E");
+    width: 26px;
+    height: 24px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(1)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='22' viewBox='0 0 21 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M18 0H6.2879C4.63105 0 3.2879 1.34315 3.2879 3V15H2.99991C1.41798 15 -0.0993261 16.305 0.0248312 18.1353C0.081919 18.9769 0.299591 20.2628 1.52438 21.1314C2.54697 21.8566 3.90974 22 5.2879 22H15.9847C15.9911 22.0001 15.9974 22.0001 16.0038 22.0001C16.0082 22.0001 16.0127 22.0001 16.0171 22H18C19.6569 22 21 20.6569 21 19V3C21 1.34315 19.6569 0 18 0ZM16.0784 20H18C18.5523 20 19 19.5523 19 19V3C19 2.44772 18.5523 2 18 2H6.2879C5.73562 2 5.2879 2.44772 5.2879 3V15H10.8899C11.5915 15 12.1569 15.3635 12.5318 15.7433C12.9121 16.1286 13.1979 16.6274 13.3338 17.1285C13.6706 18.3705 14.6688 19.7561 16.0784 20ZM4.2879 17H3.99963H2.99991C2.44763 17 1.98287 17.4489 2.02025 17.9999C2.11069 19.3333 2.60345 20 5.2879 20H12.5885C11.99 19.2335 11.5993 18.3738 11.4035 17.652C11.3591 17.4882 11.25 17.2918 11.1083 17.1482C10.9796 17.0178 10.8993 17.0021 10.8897 17.0003L10.8887 17L10.8894 17H4.2879ZM9.00012 7.49158C9.00012 6.93929 9.44784 6.49158 10.0001 6.49158H15.1199C15.6721 6.49158 16.1199 6.93929 16.1199 7.49158C16.1199 8.04386 15.6721 8.49158 15.1199 8.49158H10.0001C9.44784 8.49158 9.00012 8.04386 9.00012 7.49158ZM10.0001 10.5424C9.44784 10.5424 9.00012 10.9901 9.00012 11.5424C9.00012 12.0946 9.44784 12.5424 10.0001 12.5424H15.1199C15.6721 12.5424 16.1199 12.0946 16.1199 11.5424C16.1199 10.9901 15.6721 10.5424 15.1199 10.5424H10.0001Z' fill='black'/%3E%3C/svg%3E");
+    width: 21px;
+    height: 22px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(4)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='22' viewBox='0 0 24 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.4309 21.9064C12.516 21.8674 12.5964 21.8162 12.669 21.753C14.1983 20.4614 16.4822 18.4683 17.7884 17.1499C19.472 15.4512 20.8499 13.8384 21.8756 12.3538C23.2076 10.4246 24 8.64509 24 7.11646C24 3.27717 21.0082 0 17.1396 0C15.8874 0 14.6759 0.658985 13.7044 1.42073C13.0854 1.90609 12.5051 2.4791 12 3.07274C11.4949 2.4791 10.9146 1.90609 10.2956 1.42073C9.32409 0.658985 8.11256 0 6.86037 0C2.99178 0 0 3.27717 0 7.11646C0 8.64509 0.792204 10.4244 2.12424 12.3536C3.14991 13.8382 4.52796 15.4512 6.21161 17.1499C7.51779 18.4683 9.80168 20.4614 11.331 21.753C11.4036 21.8162 11.484 21.8674 11.5691 21.9064C11.7054 21.9691 11.8529 22.0001 12 22C12.1471 22.0001 12.2946 21.9691 12.4309 21.9064ZM1.99336 7.11646C1.99336 4.1615 4.26238 1.90951 6.86037 1.90951C7.42222 1.90951 8.18565 2.23396 9.03303 2.89837C9.8467 3.53636 10.606 4.38557 11.1509 5.19285C11.191 5.25542 11.239 5.31405 11.2946 5.36726C11.4841 5.5495 11.7399 5.64716 12 5.64739C12.1407 5.64752 12.2827 5.61913 12.4161 5.5602C12.5222 5.51366 12.6205 5.44896 12.7054 5.36726C12.761 5.31405 12.809 5.25542 12.8491 5.19285C13.394 4.38557 14.1533 3.53636 14.967 2.89837C15.8143 2.23396 16.5778 1.90951 17.1396 1.90951C19.7376 1.90951 22.0066 4.1615 22.0066 7.11646C22.0066 8.0731 21.4815 9.46316 20.2133 11.3C19.2694 12.6663 17.9719 14.1915 16.3428 15.8351C15.2699 16.9181 13.4583 18.5206 12 19.7687C10.5417 18.5206 8.73024 16.9183 7.65734 15.8352C6.02832 14.1917 4.7306 12.6663 3.78668 11.3C2.51846 9.46316 1.99336 8.0731 1.99336 7.11646Z' fill='black'/%3E%3C/svg%3E");
+    width: 24px;
+    height: 22px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-row:nth-child(3)
+    > li:nth-child(1)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M25.3033 8.40706H5.93667L5.93667 24.0529H25.3033V8.40706ZM5.93667 6C4.86708 6 4 7.07768 4 8.40706V24.0529C4 25.3823 4.86707 26.46 5.93667 26.46H25.3033C26.3729 26.46 27.24 25.3823 27.24 24.0529V8.40706C27.24 7.07768 26.3729 6 25.3033 6H5.93667Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.4213 16.0072C16.4289 19.8186 15.4067 21.306 15 22C16.0534 20.8999 17.638 18.4305 16.9528 15.8344C16.0552 12.4334 16.5077 10.9762 17.1818 10C14.8131 12.5529 15.0696 14.6796 15.4213 16.0072Z' fill='black'/%3E%3C/svg%3E");
+    width: 32px;
+    height: 32px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-row:nth-child(3)
+    > li:nth-child(2)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.09091 8.5H23.3636C23.5512 8.5 23.734 8.51992 23.9099 8.55771L16.5652 14.8696C16.0854 15.282 15.3689 15.282 14.889 14.8696L7.54437 8.55777C7.72042 8.51993 7.9033 8.5 8.09091 8.5ZM5.65899 10.2594C5.5852 10.4935 5.54545 10.7422 5.54545 11V21C5.54545 22.3807 6.68509 23.5 8.09091 23.5H23.3636C24.7695 23.5 25.9091 22.3807 25.9091 21V11C25.9091 10.7421 25.8693 10.4933 25.7955 10.2592L18.2414 16.751C16.8019 17.9881 14.6524 17.9881 13.2128 16.751L5.65899 10.2594ZM3 11C3 8.23858 5.27928 6 8.09091 6H23.3636C26.1753 6 28.4545 8.23858 28.4545 11V21C28.4545 23.7614 26.1753 26 23.3636 26H8.09091C5.27928 26 3 23.7614 3 21V11Z' fill='black'/%3E%3C/svg%3E");
+    width: 32px;
+    height: 32px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(7)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='22' viewBox='0 0 21 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.3435 2.73761C9.30932 4.74494 6.97626 5.71133 4.82559 5.0232C4.7709 5.0057 4.74489 5.01119 4.73139 5.01475C4.70965 5.02048 4.67813 5.03572 4.64745 5.06639C4.61677 5.09707 4.60154 5.1286 4.59581 5.15033C4.59225 5.16384 4.58676 5.18984 4.60426 5.24453C5.29238 7.3952 4.32599 9.72827 2.31866 10.7624C2.26762 10.7887 2.25311 10.811 2.24608 10.8231C2.23476 10.8425 2.22324 10.8756 2.22324 10.9189C2.22324 10.9623 2.23476 10.9954 2.24608 11.0148C2.25311 11.0269 2.26762 11.0492 2.31866 11.0754C4.32599 12.1096 5.29238 14.4427 4.60426 16.5934C4.58676 16.6481 4.59225 16.6741 4.59581 16.6876C4.60154 16.7093 4.61677 16.7408 4.64745 16.7715C4.67813 16.8022 4.70965 16.8174 4.73139 16.8231C4.74489 16.8267 4.7709 16.8322 4.82559 16.8147C6.97625 16.1266 9.30932 17.093 10.3435 19.1003C10.3698 19.1513 10.3921 19.1658 10.4041 19.1729C10.4236 19.1842 10.4566 19.1957 10.5 19.1957C10.5434 19.1957 10.5764 19.1842 10.5959 19.1729C10.6079 19.1658 10.6302 19.1513 10.6565 19.1003C11.6907 17.093 14.0237 16.1266 16.1744 16.8147C16.2291 16.8322 16.2551 16.8267 16.2686 16.8231C16.2903 16.8174 16.3219 16.8022 16.3526 16.7715C16.3832 16.7408 16.3985 16.7093 16.4042 16.6876C16.4078 16.6741 16.4132 16.6481 16.3957 16.5934C15.7076 14.4427 16.674 12.1096 18.6813 11.0754C18.7324 11.0492 18.7469 11.0269 18.7539 11.0148C18.7652 10.9954 18.7768 10.9623 18.7768 10.9189C18.7768 10.8756 18.7652 10.8425 18.7539 10.8231C18.7469 10.811 18.7324 10.7887 18.6813 10.7624C16.674 9.72827 15.7076 7.3952 16.3957 5.24453C16.4132 5.18984 16.4078 5.16384 16.4042 5.15033C16.3985 5.1286 16.3832 5.09707 16.3526 5.06639C16.3219 5.03572 16.2903 5.02048 16.2686 5.01475C16.2551 5.01119 16.2291 5.0057 16.1744 5.0232C14.0237 5.71133 11.6907 4.74494 10.6565 2.73761C10.6302 2.68656 10.6079 2.67206 10.5959 2.66502C10.5764 2.65371 10.5434 2.64219 10.5 2.64219C10.4566 2.64219 10.4236 2.65371 10.4041 2.66503C10.3921 2.67206 10.3698 2.68656 10.3435 2.73761ZM12.6329 1.71939C11.7396 -0.0145354 9.26044 -0.0145351 8.36713 1.71939C7.83035 2.76128 6.61939 3.26287 5.5031 2.90571C3.64536 2.31131 1.89236 4.06431 2.48676 5.92204C2.84393 7.03833 2.34233 8.24929 1.30044 8.78608C-0.433481 9.67939 -0.43348 12.1585 1.30044 13.0518C2.34233 13.5886 2.84393 14.7996 2.48676 15.9158C1.89236 17.7736 3.64536 19.5266 5.5031 18.9322C6.61939 18.575 7.83035 19.0766 8.36713 20.1185C9.26044 21.8524 11.7396 21.8524 12.6329 20.1185C13.1697 19.0766 14.3806 18.575 15.4969 18.9322C17.3546 19.5266 19.1076 17.7736 18.5132 15.9158C18.1561 14.7996 18.6577 13.5886 19.6996 13.0518C21.4335 12.1585 21.4335 9.67939 19.6996 8.78608C18.6577 8.24929 18.1561 7.03833 18.5132 5.92204C19.1076 4.06431 17.3546 2.31131 15.4969 2.90571C14.3806 3.26287 13.1697 2.76128 12.6329 1.71939Z' fill='black'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.5 13.1414C11.7278 13.1414 12.7232 12.146 12.7232 10.9182C12.7232 9.6903 11.7278 8.69492 10.5 8.69492C9.27209 8.69492 8.27671 9.6903 8.27671 10.9182C8.27671 12.146 9.27209 13.1414 10.5 13.1414ZM10.5 15.3646C12.9557 15.3646 14.9464 13.3739 14.9464 10.9182C14.9464 8.46244 12.9557 6.47168 10.5 6.47168C8.04423 6.47168 6.05347 8.46244 6.05347 10.9182C6.05347 13.3739 8.04423 15.3646 10.5 15.3646Z' fill='black'/%3E%3C/svg%3E");
+    width: 21px;
+    height: 22px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(5)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M6 17.4502V26.0002C6 26.2654 6.10536 26.5198 6.29289 26.7073C6.48043 26.8948 6.73478 27.0002 7 27.0002H25C25.2652 27.0002 25.5196 26.8948 25.7071 26.7073C25.8946 26.5198 26 26.2654 26 26.0002V17.4502' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M6.75 5H25.25C25.4669 5.00179 25.6776 5.0732 25.8508 5.20373C26.0241 5.33425 26.1509 5.51698 26.2125 5.725L28 12H4L5.7875 5.725C5.84909 5.51698 5.97587 5.33425 6.14916 5.20373C6.32244 5.0732 6.53306 5.00179 6.75 5V5Z' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M12 12V14C12 15.0609 11.5786 16.0783 10.8284 16.8284C10.0783 17.5786 9.06087 18 8 18C6.93913 18 5.92172 17.5786 5.17157 16.8284C4.42143 16.0783 4 15.0609 4 14V12' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M20 12V14C20 15.0609 19.5786 16.0783 18.8284 16.8284C18.0783 17.5786 17.0609 18 16 18C14.9391 18 13.9217 17.5786 13.1716 16.8284C12.4214 16.0783 12 15.0609 12 14V12' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M28 12V14C28 15.0609 27.5786 16.0783 26.8284 16.8284C26.0783 17.5786 25.0609 18 24 18C22.9391 18 21.9217 17.5786 21.1716 16.8284C20.4214 16.0783 20 15.0609 20 14V12' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    width: 32px;
+    height: 32px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(6)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='22' viewBox='0 0 20 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 1C7 0.447715 6.55228 0 6 0C5.44772 0 5 0.447715 5 1V2H4C1.79086 2 0 3.79086 0 6V18C0 20.2091 1.79086 22 4 22H16C18.2091 22 20 20.2091 20 18V10V8V6C20 3.79086 18.2091 2 16 2H15V1C15 0.447715 14.5523 0 14 0C13.4477 0 13 0.447715 13 1V2H7V1ZM18 8V6C18 4.89543 17.1046 4 16 4H15V5C15 5.55228 14.5523 6 14 6C13.4477 6 13 5.55228 13 5V4H7V5C7 5.55228 6.55228 6 6 6C5.44771 6 5 5.55228 5 5V4H4C2.89543 4 2 4.89543 2 6V8H18ZM2 10V18C2 19.1046 2.89543 20 4 20H16C17.1046 20 18 19.1046 18 18V10H2ZM7 13C7 12.4477 7.38376 12 7.85714 12H12.1429C12.6162 12 13 12.4477 13 13C13 13.5523 12.6162 14 12.1429 14H7.85714C7.38376 14 7 13.5523 7 13ZM7.85714 16C7.38376 16 7 16.4477 7 17C7 17.5523 7.38376 18 7.85714 18H12.1429C12.6162 18 13 17.5523 13 17C13 16.4477 12.6162 16 12.1429 16H7.85714Z' fill='black'/%3E%3C/svg%3E");
+    width: 20px;
+    height: 22px;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(9)
+    .nav-icon::before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cg clip-path='url(%23clip0_1017_15267)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 26C21.5228 26 26 21.5228 26 16C26 10.4772 21.5228 6 16 6C10.4772 6 6 10.4772 6 16C6 21.5228 10.4772 26 16 26ZM16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z' fill='black'/%3E%3Cpath d='M17.1866 17.875H15.227C15.227 17.4763 15.2584 17.129 15.321 16.8333C15.3885 16.5332 15.4994 16.2643 15.6537 16.0269C15.8079 15.7849 16.0152 15.5542 16.2755 15.3347C16.502 15.151 16.6997 14.9785 16.8684 14.8172C17.0371 14.6514 17.1673 14.4812 17.2589 14.3065C17.3504 14.1317 17.3962 13.9413 17.3962 13.7352C17.3962 13.4888 17.3553 13.2872 17.2733 13.1304C17.1962 12.9691 17.0805 12.8481 16.9262 12.7675C16.7768 12.6823 16.5888 12.6398 16.3623 12.6398C16.1743 12.6398 15.9983 12.6801 15.8344 12.7608C15.6705 12.8369 15.538 12.9579 15.4367 13.1237C15.3355 13.2894 15.2801 13.5067 15.2704 13.7755H13C13.0145 13.1349 13.1711 12.6107 13.47 12.203C13.7689 11.7908 14.169 11.4884 14.6703 11.2957C15.1764 11.0986 15.7404 11 16.3623 11C17.0516 11 17.6421 11.1008 18.1338 11.3024C18.6303 11.504 19.0087 11.802 19.269 12.1962C19.5341 12.5905 19.6667 13.0721 19.6667 13.6411C19.6667 14.0309 19.5871 14.3737 19.4281 14.6694C19.269 14.9606 19.0569 15.2339 18.7918 15.4892C18.5266 15.7401 18.2326 16.0022 17.9096 16.2755C17.6349 16.504 17.4469 16.7415 17.3456 16.9879C17.2444 17.2298 17.1914 17.5255 17.1866 17.875ZM14.9667 19.9315C14.9667 19.6313 15.0824 19.3781 15.3138 19.172C15.55 18.966 15.8561 18.8629 16.2321 18.8629C16.6081 18.8629 16.9118 18.966 17.1432 19.172C17.3745 19.3781 17.4902 19.6313 17.4902 19.9315C17.4902 20.2361 17.3745 20.4915 17.1432 20.6976C16.9118 20.8992 16.6081 21 16.2321 21C15.8561 21 15.55 20.8992 15.3138 20.6976C15.0824 20.4915 14.9667 20.2361 14.9667 19.9315Z' fill='black'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1017_15267'%3E%3Crect width='32' height='32' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    width: 32px;
+    height: 32px;
+  }
+
+  .abTesting .accountoverview-list.accordion > .accountoverview-item .nav-title,
+  .abTesting .accountoverview-list.accordion > .accountoverview-row .nav-title {
+    text-transform: initial;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:not(:nth-child(2)):not(:nth-child(1)):not(
+      :nth-child(4)
+    ):not(:nth-child(5)):not(:nth-child(6)):not(:nth-child(9))
+    .nav-title,
+  .abTesting .accountoverview-list.accordion > .accountoverview-row .nav-title {
+    font-size: 0;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item
+    .nav-title::before,
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-row
+    .nav-title::before {
+    font-size: 0.9375rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-row:nth-child(3)
+    li:nth-child(1)
+    .accountoverview-title
+    .nav-title::before {
+    content: "Le programme de fidélité";
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-row:nth-child(3)
+    li:nth-child(2)
+    .accountoverview-title
+    .nav-title::before {
+    content: "Mes préfrérences de contact";
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(7)
+    .nav-title::before {
+    content: "Mes paramètres";
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(6)
+    .nav-title,
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(9)
+    .nav-title {
+    text-transform: lowercase;
+  }
+
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(6)
+    .nav-title::first-letter,
+  .abTesting
+    .accountoverview-list.accordion
+    > .accountoverview-item:nth-child(9)
+    .nav-title::first-letter {
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,13 @@
+.checkout-create-account > .custom-checkbox {
+  display: none;
+}
+
+#mandatory-legal-optin-error:not(:empty) {
+  font-size: 0;
+}
+#mandatory-legal-optin-error:not(:empty)::after {
+  content: "${Error_Message}";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+} /*# sourceMappingURL=index.css.map */
