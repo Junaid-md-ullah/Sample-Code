@@ -4,14 +4,6 @@ let checkoutNoGuest = {
         checkoutNoGuest.mainJs();
         console.log('checkoutNoGuest | v2.0');
     },
-    mainCss: function () {
-        var styles = document.createElement("style");
-        styles.setAttribute("type","text/css");
-        document.head.appendChild(styles).textContent =
-            "" +
-            /* CSS will be imported here */
-            "";
-    },
     mainJs: function () {
         let interval = setInterval(function () {
             document.querySelector('label[for="checkoutCreateAccount"]').click();
