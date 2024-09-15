@@ -648,5 +648,3 @@ const block_loyalty = {
 };
 
 waitForElem('.loyalty-points-feature',block_loyalty.init);
-
-console.log("Test");
